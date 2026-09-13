@@ -3,10 +3,12 @@
 
     <application
         android:allowBackup="true"
-        android:label="Aalam Test"
+        android:label="Aalam Compiler"
         android:theme="@style/Theme.AppCompat">
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|screenSize"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
