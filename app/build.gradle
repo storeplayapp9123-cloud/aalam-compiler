@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace 'com.aalam.compiler'
+    namespace 'com.aalamstudio.compiler'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.aalam.compiler"
+        applicationId "com.aalamstudio.compiler"
         minSdk 21
         targetSdk 34
         versionCode 1
